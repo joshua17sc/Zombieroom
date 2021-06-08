@@ -6,6 +6,7 @@ User: root
 Password: 4ST!FNn_
 
 
+----------------------------------------------------------VPN SERVER--------------------------------------------------------------------------------------------
 Connect to the VPN server, I'll send you login info, or login to admin interface.  Once logged in, download the config pack.  Run it the same way you connect to THM or HTB.
 ex. openvpn xxxxxx.opvn
 
@@ -64,7 +65,7 @@ Admin pass: xxx
 
 
 
-Box 2:
+Box 2: need to find an iso
 OS: Windows 10
 192.168.1.102
 Root Password: 
