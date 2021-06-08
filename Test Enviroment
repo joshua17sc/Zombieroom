@@ -10,9 +10,10 @@ Connect to the VPN server, I'll send you login info, or login to admin interface
 ex. openvpn xxxxxx.opvn
 
 
-Management URL:
-User:
-Pass:
+Management URL: http://51.222.151.218
+interal IP: 192.168.1.100
+User:root
+Pass:openvpnas
 
 VPN Connection details
 IP:port
@@ -25,9 +26,9 @@ user&pass
 Box1:
 OS: Ubuntu 20.04 64bit
 IP:  192.168.1.101
-Ram:
+Ram: 1 GB
 CPU:
-Disk:
+Disk: 16 GB
 Root Password: 
 
 Port(s)
