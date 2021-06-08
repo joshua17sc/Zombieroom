@@ -10,14 +10,29 @@ Connect to the VPN server, I'll send you login info, or login to admin interface
 ex. openvpn xxxxxx.opvn
 
 
-Management URL: http://51.222.151.218
+Management URL: https://51.222.175.88:943/admin
+admin user: wywm
+admin pass: shoelessjoe
+
+Client URL
+https://51.222.175.88:943
+YOUR USER AND PASS
+
+
 interal IP: 192.168.1.100
+
+
+
 User:root
 Pass:openvpnas
 
 VPN Connection details
 IP:port
 user&pass
+
+
+    
+
 
 
 **************************************************ONCE CONNECTED TO VPN, YOU SHOULD HAVE ACCESS TO THE FOLLOWING:*********************************************
