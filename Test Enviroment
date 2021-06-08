@@ -1,0 +1,30 @@
+
+ESXi - create and mangage vms
+IP: 158.69.116.175
+https://158.69.116.175/ui
+User: root
+Password: 4ST!FNn_
+
+
+
+
+Connect to the VPN server  #creating a vpn connection to have direct access to the VM's
+Openvpn server
+IP:port
+user&pass
+
+Box1:
+Ubuntu XXX
+ip 192.168.1.101
+
+Port(s)
+21 - ftp server
+80 apache
+
+
+Box 2:
+192.168.1.102
+
+ISOs on datastore in ISO folder
+ubuntu 20
+ova for openvpn
