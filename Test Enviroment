@@ -31,6 +31,10 @@ CPU:
 Disk: 16 GB
 Root Password: 
 
+user shoe
+pass: shoelessjoe
+
+
 Port(s)
 21 - ftp server
 
