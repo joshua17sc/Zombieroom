@@ -6,16 +6,24 @@ User: root
 Password: 4ST!FNn_
 
 
+Connect to the VPN server  
+#creating a vpn connection to have direct access to the VM's
 
+Management URL:
+User:
+Pass:
 
-Connect to the VPN server  #creating a vpn connection to have direct access to the VM's
-Openvpn server
+Connection details
 IP:port
 user&pass
 
 Box1:
-Ubuntu XXX
-ip 192.168.1.101
+OS: Ubuntu 20.04 64bit
+IP:  192.168.1.101
+Ram:
+CPU:
+Disk:
+Root Password: 
 
 Port(s)
 21 - ftp server
@@ -23,8 +31,12 @@ Port(s)
 
 
 Box 2:
+OS: Windows 10
 192.168.1.102
+Root Password: 
+
+
 
 ISOs on datastore in ISO folder
-ubuntu 20
+ubuntu 20.04 64bit
 ova for openvpn
