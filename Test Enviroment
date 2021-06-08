@@ -6,16 +6,21 @@ User: root
 Password: 4ST!FNn_
 
 
-Connect to the VPN server  
-#creating a vpn connection to have direct access to the VM's
+Connect to the VPN server, I'll send you login info, or login to admin interface.  Once logged in, download the config pack.  Run it the same way you connect to THM or HTB.
+ex. openvpn xxxxxx.opvn
+
 
 Management URL:
 User:
 Pass:
 
-Connection details
+VPN Connection details
 IP:port
 user&pass
+
+
+**************************************************ONCE CONNECTED TO VPN, YOU SHOULD HAVE ACCESS TO THE FOLLOWING:*********************************************
+
 
 Box1:
 OS: Ubuntu 20.04 64bit
@@ -27,7 +32,16 @@ Root Password:
 
 Port(s)
 21 - ftp server
+
+
 80 apache
+Loaded Applications:
+
+Wordpress XX:
+Admin URL:
+Admin user: xxx
+Admin pass: xxx
+
 
 
 Box 2:
