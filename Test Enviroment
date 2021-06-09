@@ -1,15 +1,6 @@
 
-ESXi - create and mangage vms
-IP: 158.69.116.175
-https://158.69.116.175/ui
-User: root
-Password: 4ST!FNn_
-
-
 ----------------------------------------------------------VPN SERVER--------------------------------------------------------------------------------------------
 Connect to the VPN server, I'll send you login info, or login to admin interface.  Once logged in, download the config pack.  Run it the same way you connect to THM or HTB.
-ex. openvpn xxxxxx.opvn
-
 
 Management URL: https://51.222.175.88:943/admin
 admin user: wywm
@@ -17,23 +8,23 @@ admin pass: shoelessjoe
 
 Client URL
 https://51.222.175.88:943
-YOUR USER AND PASS
+YOUR USER AND PASS THAT I SENT ON LINKEDIN
+DOWNLOAD THE CONFIG FILE (.OVPN), or the windows client
 
+FROM TERMINAL ex. openvpn xxxxxx.opvn
 
-interal IP: 192.168.1.100
-
-
-
+interal IP: 10.6.6.100
+SSH
 User:root
 Pass:openvpnas
-
-VPN Connection details
-IP:port
-user&pass
+--------------------------------------------------------------ESX Host----------------------------------------------------------------
 
 
-    
-
+ESXi - create and mangage vms
+IP: 158.69.116.175
+https://158.69.116.175/ui
+User: root
+Password: 4ST!FNn_
 
 
 **************************************************ONCE CONNECTED TO VPN, YOU SHOULD HAVE ACCESS TO THE FOLLOWING:*********************************************
@@ -48,7 +39,7 @@ DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
 
 Box1:
 OS: Ubuntu 20.04 64bit
-IP:  192.168.1.101
+IP:  10.6.6.101
 Ram: 1 GB
 CPU:
 Disk: 16 GB
@@ -92,7 +83,7 @@ chat logs
 
 Box 2: need to find an iso
 OS: Windows 10
-192.168.1.102
+10.6.6.102
 Root Password: 
 
 
