@@ -2,8 +2,6 @@
 ----------------------------------------------------------VPN connection-----------------------------------------------------------------------------------
 Connect to the VPN server, I'll send you login info, or login to admin interface.  Once logged in, download the config pack.  Run it the same way you connect to THM or HTB.
 
-
-
 Client URL
 https://51.222.175.88:943
 YOUR USER AND PASS THAT I SENT ON LINKEDIN
@@ -11,7 +9,6 @@ DOWNLOAD THE CONFIG FILE (.OVPN) by clicking the "Yourself (user-locked profile)
 
 or one of the clients.
 FROM TERMINAL ex. openvpn xxxxxx.opvn
-
 
 ----------------------------------------------------------VPN Server-----------------------------------------------------------------------------------
 External IP: 51.222.175.88
@@ -25,8 +22,7 @@ admin user: wywm
 admin pass: shoelessjoe
 --------------------------------------------------------------ESX Host----------------------------------------------------------------
 
-
-ESXi - create and mangage vms
+ESXi - create and mangage vms, good idea to make snapshots as we go along.
 IP: 158.69.116.175
 https://158.69.116.175/ui
 User: root
@@ -59,12 +55,12 @@ pass: shoelessjoe
 Port(s)
 20/21 - vsftp server
 Anonymous login enable, no write.
-dir /var/ftp/pub
+dir /var/ftp/pub   <- put files here to be accessed
 
 80 apache
 Wordpress 4.9.11:
 https://wordpress.org/wordpress-4.9.11.zip
-Admin URL:
+Admin URL: http://10.6.6.101/wp-admin
 Admin user: Hasniak_Admin
 Admin pass: AeQZgQF%)NZFp$SsbP
 
@@ -78,12 +74,14 @@ db: wordpress
 db_user: wordpressuser
 db_pass: qV!4fZ!PzS
 
-
 TODO's
 customize web page
 create patient portal
+create users for patient portal
 chat logs
 
+Might be issues: 
+wordpress has a siteurl and home in the options of DB.  I think we are going to have to use hasiak.thm there and attackers will need to add it to their hosts file.  or there is going to be issues.............
 
 --------------------------------------------------------------BOX #2----------------------------------------------------------------
 
@@ -93,7 +91,18 @@ OS: Windows 10
 Root Password: 
 
 
+--------------------------------------------------------------BOX #3----------------------------------------------------------------
+Box 3: 
+OS: 
+10.6.6.103
+Root Password: 
 
-ISOs on datastore in ISO folder
-ubuntu 20.04 64bit
-ova for openvpn
+
+--------------------------------------------------------------datastore 1----------------------------------------------------------------
+
+
+#
+
+>ISOs
+    ubuntu 20.04 64bit
+    ova for openvpn
