@@ -47,6 +47,7 @@ CPU:
 Disk: 16 GB
 Root Password: 
 
+SSH/ sudo user
 user shoe
 pass: shoelessjoe
 
