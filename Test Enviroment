@@ -51,27 +51,27 @@ user shoe
 pass: shoelessjoe
 
 
-GRANT ALL ON wordpress.* TO 'wordpressuser'@'%';
-ALTER USER 'wordpressuser'@'%' IDENTIFIED BY '';
-
 Port(s)
 21 - ftp server
-
 
 80 apache
 Wordpress 4.9.11:
 https://wordpress.org/wordpress-4.9.11.zip
 Admin URL:
-Admin user: xxx
+Admin user: Hasniak_Admin
 Admin pass: AeQZgQF%)NZFp$SsbP
 
-3306
-mysql
+Vuln WP Plugin:
+WordPress Plugin Survey & Poll 1.5.7.3 - 'sss_params' SQL Injection
+https://www.exploit-db.com/apps/58cad03b651fb89471cf372b0f201278-wp-survey-and-poll.zip
+https://www.exploit-db.com/exploits/45411
+
+3306 mysql
 db: wordpress
 db_user: wordpressuser
 db_pass: qV!4fZ!PzS
 
-
+----------------------------------------------------------------------------------------------------------------------
 
 Box 2: need to find an iso
 OS: Windows 10
