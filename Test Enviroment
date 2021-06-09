@@ -51,17 +51,25 @@ user shoe
 pass: shoelessjoe
 
 
+GRANT ALL ON wordpress.* TO 'wordpressuser'@'%';
+ALTER USER 'wordpressuser'@'%' IDENTIFIED BY '';
+
 Port(s)
 21 - ftp server
 
 
 80 apache
-Loaded Applications:
-
-Wordpress XX:
+Wordpress 4.9.11:
+https://wordpress.org/wordpress-4.9.11.zip
 Admin URL:
 Admin user: xxx
-Admin pass: xxx
+Admin pass: AeQZgQF%)NZFp$SsbP
+
+3306
+mysql
+db: wordpress
+db_user: wordpressuser
+db_pass: qV!4fZ!PzS
 
 
 
