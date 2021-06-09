@@ -1,5 +1,5 @@
 
-----------------------------------------------------------VPN SERVER--------------------------------------------------------------------------------------------
+----------------------------------------------------------VPN connection-----------------------------------------------------------------------------------
 Connect to the VPN server, I'll send you login info, or login to admin interface.  Once logged in, download the config pack.  Run it the same way you connect to THM or HTB.
 
 
@@ -7,11 +7,15 @@ Connect to the VPN server, I'll send you login info, or login to admin interface
 Client URL
 https://51.222.175.88:943
 YOUR USER AND PASS THAT I SENT ON LINKEDIN
-DOWNLOAD THE CONFIG FILE (.OVPN), or the windows client
+DOWNLOAD THE CONFIG FILE (.OVPN) by clicking the "Yourself (user-locked profile)" at bottom
 
+or one of the clients.
 FROM TERMINAL ex. openvpn xxxxxx.opvn
 
-interal IP: 10.6.6.100
+
+----------------------------------------------------------VPN Server-----------------------------------------------------------------------------------
+External IP: 51.222.175.88
+Internal IP: 10.6.6.100
 SSH
 User:root
 Pass:openvpnas
