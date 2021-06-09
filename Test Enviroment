@@ -2,9 +2,7 @@
 ----------------------------------------------------------VPN SERVER--------------------------------------------------------------------------------------------
 Connect to the VPN server, I'll send you login info, or login to admin interface.  Once logged in, download the config pack.  Run it the same way you connect to THM or HTB.
 
-Management URL: https://51.222.175.88:943/admin
-admin user: wywm
-admin pass: shoelessjoe
+
 
 Client URL
 https://51.222.175.88:943
@@ -17,6 +15,10 @@ interal IP: 10.6.6.100
 SSH
 User:root
 Pass:openvpnas
+
+Management URL: https://51.222.175.88:943/admin
+admin user: wywm
+admin pass: shoelessjoe
 --------------------------------------------------------------ESX Host----------------------------------------------------------------
 
 
