@@ -37,7 +37,14 @@ user&pass
 
 
 **************************************************ONCE CONNECTED TO VPN, YOU SHOULD HAVE ACCESS TO THE FOLLOWING:*********************************************
-
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
+DO NOT UPDATE ANY SOFTWARE!!!!!!!!!!!!!!!
 
 Box1:
 OS: Ubuntu 20.04 64bit
@@ -52,7 +59,9 @@ pass: shoelessjoe
 
 
 Port(s)
-21 - ftp server
+20/21 - vsftp server
+Anonymous login enable, no write.
+dir /var/ftp/pub
 
 80 apache
 Wordpress 4.9.11:
@@ -70,6 +79,14 @@ https://www.exploit-db.com/exploits/45411
 db: wordpress
 db_user: wordpressuser
 db_pass: qV!4fZ!PzS
+
+
+TODO's
+customize web page
+create patient portal
+chat logs
+
+
 
 ----------------------------------------------------------------------------------------------------------------------
 
