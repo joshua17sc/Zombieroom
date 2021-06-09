@@ -55,6 +55,7 @@ pass: shoelessjoe
 Port(s)
 20/21 - vsftp server
 Anonymous login enable, no write.
+******** after loging in, type passive to set mode*************  we can leave as is, or it can be updated later.
 dir /var/ftp/pub   <- put files here to be accessed
 
 80 apache
