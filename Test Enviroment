@@ -13,13 +13,13 @@ FROM TERMINAL ex. openvpn xxxxxx.opvn
 ----------------------------------------------------------VPN Server-----------------------------------------------------------------------------------
 External IP: 51.222.175.88
 Internal IP: 10.6.6.100
-SSH
+SSH disabled
 User:root
-Pass:openvpnas
+Pass:Shoelessjoe123!
 
 Management URL: https://51.222.175.88:943/admin
-admin user: wywm
-admin pass: shoelessjoe
+admin user: openvpn
+admin pass: Shoelessjoe123!
 --------------------------------------------------------------ESX Host----------------------------------------------------------------
 
 ESXi - create and mangage vms, good idea to make snapshots as we go along.
